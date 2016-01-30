@@ -1,0 +1,66 @@
+html{
+	min-height: 100%;
+}
+
+body{
+	background-image: url(blue-abstract.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	    text-align: center;
+
+}
+
+.top-header{
+	background-color: lightgrey;
+	border-width: 2px; 
+
+	width: 400px;
+	border-style: solid;
+    border-radius: 25px;
+	text-align:center;
+	font-size: 100%;
+	color: cyan;
+
+    margin: 0 auto;
+	padding: 0;
+
+	float: middle;
+
+    display: inline-block;
+	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+
+}
+
+ul{
+
+
+}
+
+.top-header:hover{
+	background-color: yellow;
+}
+
+.heading{
+	text-align: center;
+		margin: 0px auto;
+	padding: 0;
+	color: cyan;
+font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+    font-style: italic;
+}
+
+
+.Description{
+	text-align: center;
+	font-size: auto;
+	color: cyan;
+	margin: 0px auto;
+
+	border-width: 2px;
+	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+	    border-style: solid;;
+	 background-color: green;
+	 width: 400px;
+	 border-radius: 5px;
+	 padding: 4px;
+}

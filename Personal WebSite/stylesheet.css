@@ -1,0 +1,106 @@
+*{
+	margin:auto;
+	padding:auto;
+	max-height:1600px;
+	max-width:1300px;
+	
+border:0px;
+}
+
+body{
+
+background-repeat: no-repeat;
+background-position: 0 0;
+background-size:100%;
+margin:0;
+padding:0;
+background-size:cover;
+
+}
+
+h1{
+	text-indent:30px;
+}
+
+div.nav{
+	border:3px solid black;
+	position:relative;
+	margin:20;
+	height:relative;
+	width:relative;
+	border-radius: 5px;
+	background-color: 	B0C4DE;
+	font-color:#0099CC;
+	max-width:1600px;
+	font-family: Impact, Charcoal, sans-serif;
+	
+}
+
+#one{
+		border:2px solid black;
+		background-color:red;
+		font-size:30px;
+		text-indent:30px;
+
+	}
+	
+#inline{ 
+	display:inline-block;
+}
+	
+div.middle{
+	border:3px solid black;
+	border-radius:5px;
+	position:relative;
+	margin:20px;
+	margin-top:-10px;
+	min-height:300px;
+	width:relative;
+	background-color:CCFFFF;
+	box-sizing:border-box;
+	max-width:1600px;
+}
+
+li{
+	display:inline-block;
+
+}
+
+div.navbar{
+	display:inline-block;
+	
+}
+
+li{
+display:inline;
+
+}
+
+li.Name{
+	font-size:30px;
+	float:
+}
+
+li.tab{
+	border:3px solid black;
+	border-radius:1px;
+	font-size:22px;
+	background-color: 0099CC;
+	box-shadow: 1px 1px 10px #0099CC;
+	float:right;
+	margin-right:20px;
+	
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+#intro{
+	text-indent: 30px;
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size:15px;
+}
+
+#special{
+	padding:0px;
+	margin:0 auto auto auto;
+	text-align:center;
+}
