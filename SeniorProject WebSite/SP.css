@@ -3,6 +3,9 @@ html{
 }
 
 body{
+	width: 796px;
+	margin: 0px auto;
+	padding: 2px;
 	background-repeat:no-repeat;
 	background-size: cover;
 	    text-align: center;
@@ -10,58 +13,114 @@ body{
 }
 
 .top-header{
-	background-color: lightgrey;
+	background-color: black;
 	border-width: 2px; 
 
-	width: 400px;
+	width: 500px;
 	border-style: solid;
-    border-radius: 25px;
+    border-radius: 5px;
 	text-align:center;
 	font-size: 100%;
-	color: cyan;
+	color: white;
 
     margin: 0 auto;
-	padding: 0;
+	padding: 3px;
 
 	float: middle;
 
     display: inline-block;
 	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-
 }
 
 .heading{
-	text-align: center;
-		margin: 0px auto;
-	padding: 0;
-	color: cyan;
 font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
     font-style: italic;
+    margin-left: 0px auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 500px;
+    float: left;
+    padding-left: 20px;
 }
 
 
 .Description{
-	text-align: center;
+	text-align: justify;
+	text-indent: 50px;
 	font-size: auto;
-	color: cyan;
+	color: black;
 	margin: 0px auto;
+	font-family:  Ubuntu, sans-serif;
 
-	border-width: 2px;
-	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-	    border-style: solid;;
-	 background-color: green;
-	 width: 400px;
-	 border-radius: 5px;
-	 padding: 4px;
+
+	 width: 500px;
+
+	 padding-bottom: 14px;
+
 }
 
-.Home, .About,.Software, .Resources,.TeamMembers{
+.Home, .Software, .Resources{
+	color: white;
+	font-size: 100%;
 	display:inline-block;
+	padding-right: 10px;
+	border-right: 1px solid #bbb;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family:  Ubuntu, sans-serif;
+	text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.TeamMembers{
+	color: white;
+
+	font-size: 100%;
+	display:inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	    border-radius: 5px;
+
+}
+.line{
+	width: 500px;
+	    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+/*
+.About{
+	color: white;
+
+	font-size: 100%;
+	display:inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	    border-radius: 5px;
+
+}
+*/
+.SchoolName{
+	display: inline-block;
+	margin: 0px auto;
+	width: 300px;
+	padding: 0px;
 }
 
 
-
-.Home:hover,.About:hover,.Software:hover, .Resources:hover,.TeamMembers:hover{
+.Home:visited,.About:visited,.Software:visited, .Resources:visited,.TeamMembers:visited{
 		background-color: blue;
 
+}
+.Image{
+	margin: 0px auto;
+	padding: 0px auto;
+	width: 500px;
 }
