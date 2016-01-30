@@ -62,6 +62,6 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
 
 
 .Home:hover,.About:hover,.Software:hover, .Resources:hover,.TeamMembers:hover{
-		background-color: pink;
+		background-color: blue;
 
 }
