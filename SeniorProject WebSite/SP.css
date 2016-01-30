@@ -1,9 +1,8 @@
 html{
-	min-height: 100%;
+	min-height: 75%;
 }
 
 body{
-	background-image: url(blue-abstract.jpg);
 	background-repeat:no-repeat;
 	background-size: cover;
 	    text-align: center;
@@ -31,15 +30,6 @@ body{
 
 }
 
-ul{
-
-
-}
-
-.top-header:hover{
-	background-color: yellow;
-}
-
 .heading{
 	text-align: center;
 		margin: 0px auto;
@@ -63,4 +53,15 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
 	 width: 400px;
 	 border-radius: 5px;
 	 padding: 4px;
+}
+
+.Home, .About,.Software, .Resources,.TeamMembers{
+	display:inline-block;
+}
+
+
+
+.Home:hover,.About:hover,.Software:hover, .Resources:hover,.TeamMembers:hover{
+		background-color: pink;
+
 }
