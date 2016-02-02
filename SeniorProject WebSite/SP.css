@@ -3,7 +3,6 @@ html{
 }
 
 body{
-	width: 796px;
 	margin: 0px auto;
 	padding: 2px;
 	background-repeat:no-repeat;
@@ -14,9 +13,8 @@ body{
 
 .top-header{
 	background-color: black;
-	border-width: 2px; 
+	border-width: 2px;
 
-	width: 500px;
 	border-style: solid;
     border-radius: 5px;
 	text-align:center;
@@ -26,7 +24,7 @@ body{
     margin: 0 auto;
 	padding: 3px;
 
-	float: middle;
+	float: right;
 
     display: inline-block;
 	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
@@ -40,23 +38,18 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
     padding-bottom: 0px;
     width: 500px;
     float: left;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 
 .Description{
 	text-align: justify;
-	text-indent: 50px;
 	font-size: auto;
 	color: black;
 	margin: 0px auto;
 	font-family:  Ubuntu, sans-serif;
-
-
-	 width: 500px;
-
-	 padding-bottom: 14px;
-
+	width: 800px;
+	padding-bottom: 14px;
 }
 
 .Home, .Software, .Resources{
@@ -85,7 +78,6 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
 
 }
 .line{
-	width: 500px;
 	    display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
