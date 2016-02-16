@@ -1,48 +1,18 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
-	<head>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>		
-		<title>	My Site </title>
-	</head>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
+</script>
 
-	<body>
-		<div id="head">
+<body>
+	<div ng-app="" ng-init="myCol='red'">
+		 <input type="text" ng-model="number"><br>
+			{{number}}
 
-	       		  <p id="Title">         
-	       		      Zeeshan Sajid
- 	       		   </p>
+		<input style="background-color:{{myCol}}" ng-model="myCol" value="{{myCol}}">
 
-<a href="mailto:you@yourdomain.com"><p id="email">you@yourdomain.com</p></a>
-
-	  	 	  <a href="Home.html">
-				<p id="Title2">
-					Home
-			   	</p>
-			  </a>
-
-			  <p id="Title2">
-				Resume
-		  	  </p>
-			
-		<p id="Title2">
-			Projects
-		</p>
-	
-		<p id="Title2">
-			Contact
-		</p>
-
-    
-        </div>
-
-    <div id="middle">
-      <p id="p middle">
-        Hello! My name is Zeeshan Sajid. I'm currently a student enrolled with the Computer Science program at University of Nevada Reno.
-      </p>
-    </div>
+	</div>
 
 
-    <div id="footer">
-    </div>
-	</body>
+
+</body>
 </html>
