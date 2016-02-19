@@ -1,18 +1,45 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html>
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
-</script>
+  <head>
+    <meta charset="utf-8" />
+    <title>React Tutorial</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+  </head>
+  <body>
+    <div id="content">
+    	
+    </div>
+    <script type="text/jsx">
+    	var Comp = React.createClass({
+    		doSomething: function(){
+    			alert("The text displaying is: ");
 
-<body>
-	<div ng-app="" ng-init="myCol='red'">
-		 <input type="text" ng-model="number"><br>
-			{{number}}
+    		},
 
-		<input style="background-color:{{myCol}}" ng-model="myCol" value="{{myCol}}">
+    		render: function(){
+    			return(
+    					<div>
+    					<h1> {this.props.user} likes to eat {this.props.food} </h1>	
+    					<a onClick={this.doSomething} >Click me</a>	
+    					</div>
+    				);
+    		}
 
-	</div>
+    	});
 
+    	React.render(
+    			<div> 
+	    			< Comp user = "Zeeshan"  food="Chicken" /> 
+	    			<  Comp user = "Alec"  food="noodles"/> 
+	    			<  Comp  user = "Lola"food="beef" />
+    			</div>, document.getElementById('content'));
+    </script>
 
-
-</body>
+  </body>
 </html>
