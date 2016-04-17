@@ -14,20 +14,32 @@ body{
 .top-header{
 	background-color: black;
 	border-width: 2px;
+			display: inline-block;
+		font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+		font-size: 120%;
+		border-style: solid;
+		border-radius: 5px;
+		color: white;
 
-	border-style: solid;
-    border-radius: 5px;
-	text-align:center;
-	font-size: 100%;
-	color: white;
+/*
+		background-color: black;
+		border-width: 2px;
+		border-color:red;
 
-    margin: 0 auto;
-	padding: 3px;
+		border-style: solid;
+			border-radius: 5px;
+		text-align:center;
+		font-size: 100%;
+		color: white;
 
-	float: right;
+			margin: 0 auto;
+		padding:5px;
 
-    display: inline-block;
-	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+		float: right;
+
+			display: inline-block;
+		font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+		*/
 }
 
 .heading{
@@ -52,7 +64,7 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
 	padding-bottom: 14px;
 }
 
-.Home, .Software, .Resources{
+.Home, .Software, .Resources, .Advisors{
 	color: white;
 	font-size: 100%;
 	display:inline-block;
@@ -107,7 +119,7 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
 }
 
 
-.Home:visited,.About:visited,.Software:visited, .Resources:visited,.TeamMembers:visited{
+.Home:visited,.About:visited,.Software:visited, .Resources:visited,.TeamMembers:visited,.Advisors:visited{
 		background-color: blue;
 
 }
