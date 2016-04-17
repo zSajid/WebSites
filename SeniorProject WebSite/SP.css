@@ -16,30 +16,11 @@ body{
 	border-width: 2px;
 			display: inline-block;
 		font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-		font-size: 120%;
+		font-size: auto;
 		border-style: solid;
 		border-radius: 5px;
 		color: white;
 
-/*
-		background-color: black;
-		border-width: 2px;
-		border-color:red;
-
-		border-style: solid;
-			border-radius: 5px;
-		text-align:center;
-		font-size: 100%;
-		color: white;
-
-			margin: 0 auto;
-		padding:5px;
-
-		float: right;
-
-			display: inline-block;
-		font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-		*/
 }
 
 .heading{
