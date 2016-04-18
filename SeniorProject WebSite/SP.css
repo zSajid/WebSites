@@ -101,7 +101,6 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
 
 @media screen and (max-width: 481px){
 .Home, .Software, .Resources, .Advisors, .TeamMembers{
-	text-align: justify;
 	color: white;
 	font-size: 60%;
 	display:inline-block;
@@ -172,7 +171,7 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
 .HeadShot{
 	margin: 0px auto;
 	padding: 0px auto;
-	width: 50%;
+	width: 75%;
 }
 
 
