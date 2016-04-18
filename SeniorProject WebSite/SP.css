@@ -100,7 +100,7 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
 }
 
 @media screen and (max-width: 481px){
-.Home, .Software, .Resources, .Advisors{
+.Home, .Software, .Resources, .Advisors, .TeamMembers{
 	color: white;
 	font-size: 75%;
 	display:inline-block;
@@ -124,15 +124,6 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
 	padding-bottom: 14px;
 }
 
-.Description{
-	text-align: justify;
-	font-size: 150%;
-	color: black;
-	margin: 0px auto;
-	font-family:  Ubuntu, sans-serif;
-	width: 90%;
-	padding-bottom: 14px;
-}
 
 html{
 	min-height: 75%;
@@ -168,6 +159,13 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
     width: 500px;
     float: left;
     padding-left: 0px;
+}
+
+
+.Image{
+	margin: 0px auto;
+	padding: 0px auto;
+	width: 500px;
 }
 
 }
