@@ -172,6 +172,7 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
 	margin: 0px auto;
 	padding: 0px auto;
 	width: 90%;
+        max-width:25%;
 }
 
 
