@@ -103,7 +103,7 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
 .Home, .Software, .Resources, .Advisors, .TeamMembers{
 	text-align: justify;
 	color: white;
-	font-size: 200%;
+	font-size: 60%;
 	display:inline-block;
 	border-right: 1px solid #bbb;
 	padding-left: 10px;
