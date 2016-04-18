@@ -114,4 +114,14 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
 
 }
 
+.Description{
+	text-align: justify;
+	font-size: 90%;
+	color: black;
+	margin: 0px auto;
+	font-family:  Ubuntu, sans-serif;
+	width: 90%;
+	padding-bottom: 14px;
+}
+
 }
