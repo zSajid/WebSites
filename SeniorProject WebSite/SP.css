@@ -87,6 +87,13 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
 	width: 500px;
 }
 
+.Image{
+	margin: 0px auto;
+	padding: 0px auto;
+	width: 500px;
+        max-width: 10%;
+}
+
 /*##########################################################################################################################*/
 
 
@@ -160,7 +167,13 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Time
 	margin: 0px auto;
 	padding: 0px auto;
 	width: 90%;
-        max-width: 10%;
 }
+
+.HeadShot{
+	margin: 0px auto;
+	padding: 0px auto;
+	width: 90%;
+}
+
 
 }
